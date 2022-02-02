@@ -47,7 +47,7 @@ print(parent_dir)
 
 orn = p.getQuaternionFromEuler([0,0,np.pi])
 bot = p.loadURDF(parent_dir+"/rsc/car_with_gripper/urdf/car_with_gripper.urdf",[0,0,0.5],orn)
-arena = p.loadURDF("/home/astitva/Projects/robotics/Robo_Event/local_resources/Arena/urdf/arena.urdf",useFixedBase = 1)
+arena = p.loadURDF(parent_dir+"/rsc/arena/urdf/arena.urdf",useFixedBase = 1)
 
 ball_green = p.loadURDF(parent_dir+"/rsc/Balls/ball_green.urdf",[6,0,2.0])
 ball_red = p.loadURDF(parent_dir+"/rsc/Balls/ball_red.urdf",[5,5,2.0])
