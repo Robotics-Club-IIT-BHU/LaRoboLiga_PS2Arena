@@ -6,18 +6,17 @@ import os
 import cv2
 
 def get_camera_image(bodyIndex):
-    width = 512
-    height = 512
-
+    width = 800
+    height = 800
     fov = 60
     aspect = width / height
     near = 0.02
-    far = 30
+    far = 50
 
     orn = p.getEulerFromQuaternion(p.getBasePositionAndOrientation(bodyIndex)[1])
     pos = p.getBasePositionAndOrientation(bodyIndex)[0]
-    camera_eye = [pos[0]+0.4*np.cos(orn[2]),pos[1]+0.4*np.sin(orn[2]),pos[2]+1.0*np.cos(orn[0])]
-    target_pos = [pos[0]-2*np.cos(orn[2]),pos[1]-2*np.sin(orn[2]),pos[2]+1.0*np.cos(orn[0])]
+    camera_eye = [pos[0]+0.4*np.cos(orn[2]),pos[1]+0.4*np.sin(orn[2]),pos[2]+1.15*np.cos(orn[0])]
+    target_pos = [pos[0]-2*np.cos(orn[2]),pos[1]-2*np.sin(orn[2]),pos[2]+1.15*np.cos(orn[0])]
     print(orn[2])
     view_matrix = p.computeViewMatrix(camera_eye, target_pos, [0, 0, 1])
     projection_matrix = p.computeProjectionMatrixFOV(fov, aspect, near, far)
@@ -47,9 +46,9 @@ print(parent_dir)
 
 orn = p.getQuaternionFromEuler([0,0,np.pi])
 bot = p.loadURDF(parent_dir+"/rsc/car_with_gripper/urdf/car_with_gripper.urdf",[0,0,0.5],orn)
-arena = p.loadURDF(parent_dir+"/rsc/arena/urdf/arena.urdf",useFixedBase = 1,globalScaling = 1.2)
+arena = p.loadURDF(parent_dir+"/rsc/arena/urdf/arena.urdf",useFixedBase = 1)
 
-ball_green = p.loadURDF(parent_dir+"/rsc/Balls/ball_green.urdf",[0,6,2.0])
+ball_yellow = p.loadURDF(parent_dir+"/rsc/Balls/ball_yellow.urdf",[0,6,2.0])
 ball_red = p.loadURDF(parent_dir+"/rsc/Balls/ball_red.urdf",[6,0,2.0])
 ball_blue = p.loadURDF(parent_dir+"/rsc/Balls/ball_blue.urdf",[-6,0,2.0])
 ball_purple = p.loadURDF(parent_dir+"/rsc/Balls/ball_purple.urdf",[0,-6,2.0])

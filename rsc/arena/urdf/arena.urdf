@@ -129,18 +129,6 @@
           <box size="4.48805 0.31154 2.4"/>
         </geometry>
       </collision>
-      <collision name="collision_0_field_1_3">
-        <origin xyz="-0.08867 0.00299 -0.00622" rpy="0 0 0"/>
-        <geometry>
-          <mesh filename="../meshes/dae/Goalsopponent.004.dae" scale="1.52668 1.17612 1.1526"/>
-        </geometry>
-      </collision>
-      <collision name="collision_0_field_1_7">
-        <origin xyz="0.54038 -0.0015 0.15816" rpy="0 0 0"/>
-        <geometry>
-          <mesh filename="../meshes/dae/Goalsopponentback.004.dae" scale="1.57325 1.212 1.212"/>
-        </geometry>
-      </collision>
     </link>
 
     <link name="field_1_4">
@@ -179,18 +167,6 @@
         <origin xyz="1.29761 -0.0285 0.18806" rpy="0 0 1.5698"/>
         <geometry>
           <box size="4.48806 0.29939 2.4"/>
-        </geometry>
-      </collision>
-      <collision name="collision_0_field_1_4">
-        <origin xyz="-0.08915 0.00045 -0.00622" rpy="0 0 0"/>
-        <geometry>
-          <mesh filename="../meshes/dae/Goalsopponent.003.dae" scale="1.46714 1.17612 1.1526"/>
-        </geometry>
-      </collision>
-      <collision name="collision_0_field_1_8">
-        <origin xyz="0.52074 0.00017 0.15816" rpy="0 0 0"/>
-        <geometry>
-          <mesh filename="../meshes/dae/Goalsopponentback.003.dae" scale="1.51189 1.212 1.212"/>
         </geometry>
       </collision>
     </link>
@@ -233,18 +209,6 @@
           <box size="4.48805 0.3248 2.4"/>
         </geometry>
       </collision>
-      <collision name="collision_0_field_1_1">
-        <origin xyz="0.13169 0.00299 -0.00622" rpy="0 0 0"/>
-        <geometry>
-          <mesh filename="../meshes/dae/Goalsally.005.dae" scale="1.5917 1.17612 1.1526"/>
-        </geometry>
-      </collision>
-      <collision name="collision_0_field_1_5">
-        <origin xyz="-0.76221 -0.0015 0.15816" rpy="0 0 0"/>
-        <geometry>
-          <mesh filename="../meshes/dae/Goalsallyback.005.dae" scale="1.64025 1.212 1.212"/>
-        </geometry>
-      </collision>
     </link>
 
     <link name="field_1_6">
@@ -283,18 +247,6 @@
         <origin xyz="-1.01558 0.01088 0.18806" rpy="0 0 1.56968"/>
         <geometry>
           <box size="4.41311 0.33734 2.4"/>
-        </geometry>
-      </collision>
-      <collision name="collision_0_field_1_2">
-        <origin xyz="0.10886 0.00577 -0.00622" rpy="0 0 0"/>
-        <geometry>
-          <mesh filename="../meshes/dae/Goalsally.006.dae" scale="1.65313 1.17612 1.1526"/>
-        </geometry>
-      </collision>
-      <collision name="collision_0_field_1_6">
-        <origin xyz="-0.59097 0.00692 0.15816" rpy="0 0 0"/>
-        <geometry>
-          <mesh filename="../meshes/dae/Goalsallyback.006.dae" scale="1.70356 1.212 1.212"/>
         </geometry>
       </collision>
     </link>

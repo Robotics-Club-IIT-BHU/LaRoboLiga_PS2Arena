@@ -1,27 +1,14 @@
 <?xml vesrion="1.0"?>
 <robot name="outer_shell">
- <material name="blue">
-    <color rgba="0 0 0.8 1"/>
-  </material>
-  <material name="black">
-    <color rgba="0 0 0 1"/>
-  </material>
-  <material name="white">
-    <color rgba="1 1 1 1"/>
-  </material>
-  <material name="red">
-    <color rgba="0.8 0 0 1"/>
-  </material>  
-  <material name="green">
-    <color rgba="0 0.8 0 1"/>
-  </material> 
-
+<material name="yellow">
+	<color rgba="0.8 0.8 0.05 1"/>
+</material>
 	<link name="base_link">
 		<visual>
 			<geometry>
 				<sphere radius="0.6"/>
 			</geometry>
-			<material name="green"/>
+			<material name="yellow"/>
 		</visual>
 		<collision>
 			<geometry>
