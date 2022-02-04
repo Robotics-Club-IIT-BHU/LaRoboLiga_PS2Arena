@@ -49,8 +49,6 @@ bot = p.loadURDF(parent_dir+"/rsc/car_with_gripper/urdf/car_with_gripper.urdf",[
 arena = p.loadURDF(parent_dir+"/rsc/arena/urdf/arena.urdf",useFixedBase = 1)
 
 ball_yellow = p.loadURDF(parent_dir+"/rsc/Balls/ball_yellow.urdf",[0,6,2.0])
-p.loadURDF(parent_dir+"/rsc/Balls/ball_green.urdf",[0,6,2.0])
-
 ball_red = p.loadURDF(parent_dir+"/rsc/Balls/ball_red.urdf",[6,0,2.0])
 ball_blue = p.loadURDF(parent_dir+"/rsc/Balls/ball_blue.urdf",[-6,0,2.0])
 ball_purple = p.loadURDF(parent_dir+"/rsc/Balls/ball_purple.urdf",[0,-6,2.0])
