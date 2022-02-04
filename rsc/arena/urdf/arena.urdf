@@ -9,55 +9,55 @@
         <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
       </inertial>
       <visual name="visual_0_field_1_20">
-        <origin xyz="-0.31132 14.83351 0.41041" rpy="0 0 1.57"/>
+        <origin xyz="-0.37359 17.80021 0.49249" rpy="0 0 1.57"/>
         <geometry>
-          <box size="0.06625 30.2086 1.32494"/>
+          <box size="0.0795 36.25032 1.58993"/>
         </geometry>
         <material name="field_1_20_visual_material"/>
       </visual>
       <visual name="visual_0_field_1_21">
-        <origin xyz="-0.31132 -14.31513 0.41041" rpy="0 0 1.57"/>
+        <origin xyz="-0.37359 -17.17816 0.49249" rpy="0 0 1.57"/>
         <geometry>
-          <box size="0.06625 30.2086 1.32494"/>
+          <box size="0.0795 36.25032 1.58993"/>
         </geometry>
         <material name="field_1_21_visual_material"/>
       </visual>
       <visual name="visual_0_field_1_22">
-        <origin xyz="14.84597 0.25919 0.41041" rpy="0 0 0"/>
+        <origin xyz="17.81516 0.31103 0.49249" rpy="0 0 0"/>
         <geometry>
-          <box size="0.06625 29.14865 1.32494"/>
+          <box size="0.0795 34.97837 1.58993"/>
         </geometry>
         <material name="field_1_22_visual_material"/>
       </visual>
       <visual name="visual_0_field_1_23">
-        <origin xyz="-15.46862 0.25919 0.41041" rpy="0 0 0"/>
+        <origin xyz="-18.56234 0.31103 0.49249" rpy="0 0 0"/>
         <geometry>
-          <box size="0.06625 29.14865 1.32494"/>
+          <box size="0.0795 34.97837 1.58993"/>
         </geometry>
         <material name="field_1_23_visual_material"/>
       </visual>
       <collision name="collision_0_field_1_20.000">
-        <origin xyz="-0.31132 14.83351 0.41041" rpy="0 0 1.57"/>
+        <origin xyz="-0.37359 17.80021 0.49249" rpy="0 0 1.57"/>
         <geometry>
-          <box size="0.06625 30.2086 1.32494"/>
+          <box size="0.0795 36.25032 1.58993"/>
         </geometry>
       </collision>
       <collision name="collision_0_field_1_21.000">
-        <origin xyz="-0.31132 -14.31513 0.41041" rpy="0 0 1.57"/>
+        <origin xyz="-0.37359 -17.17816 0.49249" rpy="0 0 1.57"/>
         <geometry>
-          <box size="0.06625 30.2086 1.32494"/>
+          <box size="0.0795 36.25032 1.58993"/>
         </geometry>
       </collision>
       <collision name="collision_0_field_1_22.000">
-        <origin xyz="14.84597 0.25919 0.41041" rpy="0 0 0"/>
+        <origin xyz="17.81516 0.31103 0.49249" rpy="0 0 0"/>
         <geometry>
-          <box size="0.06625 29.14865 1.32494"/>
+          <box size="0.0795 34.97837 1.58993"/>
         </geometry>
       </collision>
       <collision name="collision_0_field_1_23.000">
-        <origin xyz="-15.46862 0.25919 0.41041" rpy="0 0 0"/>
+        <origin xyz="-18.56234 0.31103 0.49249" rpy="0 0 0"/>
         <geometry>
-          <box size="0.06625 29.14865 1.32494"/>
+          <box size="0.0795 34.97837 1.58993"/>
         </geometry>
       </collision>
     </link>
@@ -69,16 +69,16 @@
         <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
       </inertial>
       <visual name="visual_0_field_1_10">
-        <origin xyz="-0.31132 0.25919 0.00072" rpy="0 0 0"/>
+        <origin xyz="-0.37359 0.31103 0.00086" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="../meshes/dae/Field.001.dae" scale="2.91486 3.91726 3.97482"/>
+          <mesh filename="../meshes/dae/Field.001.dae" scale="3.49784 4.70071 4.76978"/>
         </geometry>
         <material name="field_1_10_visual_material"/>
       </visual>
       <collision name="collision_4_field_1">
-        <origin xyz="-0.31132 0.25919 0.00072" rpy="0 0 0"/>
+        <origin xyz="-0.37359 0.31103 0.00086" rpy="0 0 0"/>
         <geometry>
-          <box size="30.24656 28.98772 0.01192"/>
+          <box size="36.29588 34.78526 0.01431"/>
         </geometry>
       </collision>
     </link>
@@ -98,35 +98,35 @@
         <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
       </inertial>
       <visual name="visual_0_field_1_3">
-        <origin xyz="-0.03359 0 0" rpy="0 0 0"/>
+        <origin xyz="-0.0403 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="../meshes/dae/Goalsopponent.dae" scale="2.57978 1.32494 1.32494"/>
+          <mesh filename="../meshes/dae/Goalsopponent.dae" scale="3.09574 1.58993 1.58993"/>
         </geometry>
         <material name="field_1_3_visual_material"/>
       </visual>
       <visual name="visual_0_field_1_7">
-        <origin xyz="0.56502 0 0.22932" rpy="0 0 0"/>
+        <origin xyz="0.67803 0 0.27518" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="../meshes/dae/Goalsopponentback.001.dae" scale="2.57978 1.32494 1.32494"/>
+          <mesh filename="../meshes/dae/Goalsopponentback.001.dae" scale="3.09574 1.58993 1.58993"/>
         </geometry>
         <material name="field_1_7_visual_material"/>
       </visual>
       <collision name="Cube.004">
-        <origin xyz="0.2357 -1.7977 0.17498" rpy="0 0 -3.14159"/>
+        <origin xyz="0.28285 -2.15724 0.20997" rpy="0 0 -3.14159"/>
         <geometry>
-          <box size="1.95524 0.2 2.0"/>
+          <box size="2.34629 0.24 2.4"/>
         </geometry>
       </collision>
       <collision name="Cube.005">
-        <origin xyz="0.2357 1.80825 0.17498" rpy="0 0 -3.14159"/>
+        <origin xyz="0.28285 2.1699 0.20997" rpy="0 0 -3.14159"/>
         <geometry>
-          <box size="1.95524 0.2 2.0"/>
+          <box size="2.34629 0.24 2.4"/>
         </geometry>
       </collision>
       <collision name="Cube.008">
-        <origin xyz="1.165 0.01854 0.15672" rpy="0 0 1.5708"/>
+        <origin xyz="1.398 0.02224 0.18806" rpy="0 0 1.5708"/>
         <geometry>
-          <box size="3.74004 0.25961 2.0"/>
+          <box size="4.48805 0.31154 2.4"/>
         </geometry>
       </collision>
     </link>
@@ -138,35 +138,35 @@
         <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
       </inertial>
       <visual name="visual_0_field_1_4">
-        <origin xyz="-0.10859 7e-05 0" rpy="0 0 0"/>
+        <origin xyz="-0.13031 8e-05 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="../meshes/dae/Goalsopponent.002.dae" scale="2.47917 1.32494 1.32494"/>
+          <mesh filename="../meshes/dae/Goalsopponent.002.dae" scale="2.975 1.58993 1.58993"/>
         </geometry>
         <material name="field_1_4_visual_material"/>
       </visual>
       <visual name="visual_0_field_1_8">
-        <origin xyz="0.54298 -7e-05 0.22932" rpy="0 0 0"/>
+        <origin xyz="0.65158 -8e-05 0.27518" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="../meshes/dae/Goalsopponentback.dae" scale="2.47917 1.32494 1.32494"/>
+          <mesh filename="../meshes/dae/Goalsopponentback.dae" scale="2.975 1.58993 1.58993"/>
         </geometry>
         <material name="field_1_8_visual_material"/>
       </visual>
       <collision name="Cube">
-        <origin xyz="0.22155 1.7592 0.17498" rpy="0 0 3.14095"/>
+        <origin xyz="0.26586 2.11104 0.20997" rpy="0 0 3.14095"/>
         <geometry>
-          <box size="1.87899 0.2 2.0"/>
+          <box size="2.25478 0.24 2.4"/>
         </geometry>
       </collision>
       <collision name="Cube.006">
-        <origin xyz="0.21802 -1.79562 0.17498" rpy="0 0 3.14095"/>
+        <origin xyz="0.26162 -2.15475 0.20997" rpy="0 0 3.14095"/>
         <geometry>
-          <box size="1.87899 0.2 2.0"/>
+          <box size="2.25478 0.24 2.4"/>
         </geometry>
       </collision>
       <collision name="Cube.010">
-        <origin xyz="1.08134 -0.02375 0.15672" rpy="0 0 1.5698"/>
+        <origin xyz="1.29761 -0.0285 0.18806" rpy="0 0 1.5698"/>
         <geometry>
-          <box size="3.74005 0.24949 2.0"/>
+          <box size="4.48806 0.29939 2.4"/>
         </geometry>
       </collision>
     </link>
@@ -178,35 +178,35 @@
         <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
       </inertial>
       <visual name="visual_0_field_1_1">
-        <origin xyz="0.15078 0 0" rpy="0 0 0"/>
+        <origin xyz="0.18094 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="../meshes/dae/Goalsally.dae" scale="2.68965 1.32494 1.32494"/>
+          <mesh filename="../meshes/dae/Goalsally.dae" scale="3.22758 1.58993 1.58993"/>
         </geometry>
         <material name="field_1_1_visual_material"/>
       </visual>
       <visual name="visual_0_field_1_5">
-        <origin xyz="-0.47088 0 0.22932" rpy="0 0 0"/>
+        <origin xyz="-0.56506 0 0.27518" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="../meshes/dae/Goalsallyback.dae" scale="2.68965 1.32494 1.32494"/>
+          <mesh filename="../meshes/dae/Goalsallyback.dae" scale="3.22758 1.58993 1.58993"/>
         </geometry>
         <material name="field_1_5_visual_material"/>
       </visual>
       <collision name="Cube.002">
-        <origin xyz="-0.14939 1.77138 0.17497" rpy="0 0 -3.14159"/>
+        <origin xyz="-0.17927 2.12565 0.20997" rpy="0 0 -3.14159"/>
         <geometry>
-          <box size="2.03851 0.2 2.0"/>
+          <box size="2.44621 0.24 2.4"/>
         </geometry>
       </collision>
       <collision name="Cube.003">
-        <origin xyz="-0.14939 -1.7977 0.17497" rpy="0 0 -3.14159"/>
+        <origin xyz="-0.17927 -2.15724 0.20997" rpy="0 0 -3.14159"/>
         <geometry>
-          <box size="2.03851 0.2 2.0"/>
+          <box size="2.44621 0.24 2.4"/>
         </geometry>
       </collision>
       <collision name="Cube.009">
-        <origin xyz="-1.0684 0.01854 0.15672" rpy="0 0 1.5708"/>
+        <origin xyz="-1.28207 0.02224 0.18806" rpy="0 0 1.5708"/>
         <geometry>
-          <box size="3.74004 0.27067 2.0"/>
+          <box size="4.48805 0.3248 2.4"/>
         </geometry>
       </collision>
     </link>
@@ -218,35 +218,35 @@
         <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
       </inertial>
       <visual name="visual_0_field_1_2">
-        <origin xyz="0.4494 0.00474 0" rpy="0 0 0"/>
+        <origin xyz="0.53928 0.00569 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="../meshes/dae/Goalsally.002.dae" scale="2.79345 1.32494 1.32494"/>
+          <mesh filename="../meshes/dae/Goalsally.002.dae" scale="3.35214 1.58993 1.58993"/>
         </geometry>
         <material name="field_1_2_visual_material"/>
       </visual>
       <visual name="visual_0_field_1_6">
-        <origin xyz="-0.29423 0.00516 0.22932" rpy="0 0 0"/>
+        <origin xyz="-0.35307 0.00619 0.27518" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="../meshes/dae/Goalsallyback.001.dae" scale="2.79345 1.32494 1.32494"/>
+          <mesh filename="../meshes/dae/Goalsallyback.001.dae" scale="3.35214 1.58993 1.58993"/>
         </geometry>
         <material name="field_1_6_visual_material"/>
       </visual>
       <collision name="Cube.001">
-        <origin xyz="0.16494 -1.73447 0.17498" rpy="0 0 3.14103"/>
+        <origin xyz="0.19793 -2.08137 0.20997" rpy="0 0 3.14103"/>
         <geometry>
-          <box size="2.11719 0.2 2.0"/>
+          <box size="2.54062 0.24 2.4"/>
         </geometry>
       </collision>
       <collision name="Cube.007">
-        <origin xyz="0.15236 1.76396 0.17498" rpy="0 0 3.14103"/>
+        <origin xyz="0.18283 2.11675 0.20997" rpy="0 0 3.14103"/>
         <geometry>
-          <box size="2.11719 0.2 2.0"/>
+          <box size="2.54062 0.24 2.4"/>
         </geometry>
       </collision>
       <collision name="Cube.011">
-        <origin xyz="-0.84632 0.00907 0.15672" rpy="0 0 1.56968"/>
+        <origin xyz="-1.01558 0.01088 0.18806" rpy="0 0 1.56968"/>
         <geometry>
-          <box size="3.67759 0.28112 2.0"/>
+          <box size="4.41311 0.33734 2.4"/>
         </geometry>
       </collision>
     </link>
@@ -258,64 +258,64 @@
         <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
       </inertial>
       <visual name="visual_0_field_1_11">
-        <origin xyz="0.76012 -0.38752 -0.09037" rpy="0 0 1.57"/>
+        <origin xyz="0.91214 -0.46502 -0.10845" rpy="0 0 1.57"/>
         <geometry>
-          <mesh filename="../meshes/dae/Lines.dae" scale="2.64988 3.97482 3.97481"/>
+          <mesh filename="../meshes/dae/Lines.dae" scale="3.17985 4.76978 4.76978"/>
         </geometry>
         <material name="field_1_11_visual_material"/>
       </visual>
       <visual name="visual_0_field_1_9">
-        <origin xyz="-0.12568 -0.77279 -0.07037" rpy="0 0 0"/>
+        <origin xyz="-0.15082 -0.92735 -0.08445" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="../meshes/dae/Lines.002.dae" scale="2.64988 3.97482 3.97481"/>
+          <mesh filename="../meshes/dae/Lines.002.dae" scale="3.17985 4.76978 4.76978"/>
         </geometry>
         <material name="field_1_9_visual_material"/>
       </visual>
     </link>
 
     <joint name="boundary" type="floating">
-      <origin xyz="0 0 -0.22" rpy="0 0 0"/>
+      <origin xyz="0 0 -0.264" rpy="0 0 0"/>
       <parent link="field_1"/>
       <child link="boundary"/>
     </joint>
 
     <joint name="field_1_10_fixing" type="fixed">
-      <origin xyz="0 0.25919 0.12725" rpy="0 0 0"/>
+      <origin xyz="0 0.31103 0.1527" rpy="0 0 0"/>
       <parent link="field_1"/>
       <child link="field_1_10"/>
       <limit effort="1" velocity="20"/>
     </joint>
 
     <joint name="field_1_3_fixing" type="fixed">
-      <origin xyz="10.30401 0 0.85994" rpy="0 0 0"/>
+      <origin xyz="12.36481 0 1.03193" rpy="0 0 0"/>
       <parent link="field_1"/>
       <child link="field_1_3"/>
       <limit effort="1" velocity="20"/>
     </joint>
 
     <joint name="field_1_4_fixing" type="fixed">
-      <origin xyz="0 -10.15281 0.85994" rpy="0 0 -1.57"/>
+      <origin xyz="0 -12.18337 1.03193" rpy="0 0 -1.57"/>
       <parent link="field_1"/>
       <child link="field_1_4"/>
       <limit effort="1" velocity="20"/>
     </joint>
 
     <joint name="field_1_5_fixing" type="fixed">
-      <origin xyz="-10.21168 0 0.85994" rpy="0 0 0"/>
+      <origin xyz="-12.25401 0 1.03193" rpy="0 0 0"/>
       <parent link="field_1"/>
       <child link="field_1_5"/>
       <limit effort="1" velocity="20"/>
     </joint>
 
     <joint name="field_1_6_fixing" type="fixed">
-      <origin xyz="0 10.71017 0.85994" rpy="0 0 -1.57"/>
+      <origin xyz="0 12.8522 1.03193" rpy="0 0 -1.57"/>
       <parent link="field_1"/>
       <child link="field_1_6"/>
       <limit effort="1" velocity="20"/>
     </joint>
 
     <joint name="field_1_9_fixing" type="fixed">
-      <origin xyz="0 0.25919 0.12725" rpy="0 0 0"/>
+      <origin xyz="0 0.31103 0.1527" rpy="0 0 0"/>
       <parent link="field_1"/>
       <child link="field_1_9"/>
       <limit effort="1" velocity="20"/>
