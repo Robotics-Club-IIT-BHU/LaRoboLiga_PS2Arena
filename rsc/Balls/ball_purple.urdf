@@ -1,7 +1,7 @@
 <?xml vesrion="1.0"?>
 <robot name="outer_shell">
 <material name = "purple">
-    <color rgba = "0.6 0 0.4 1.0"/>
+    <color rgba = "0.8 0.39 0.68 1.0"/>
 </material>
 	<link name="base_link">
 		<visual>

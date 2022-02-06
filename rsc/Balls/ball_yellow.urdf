@@ -1,7 +1,11 @@
 <?xml vesrion="1.0"?>
 <robot name="outer_shell">
 <material name="yellow">
+<<<<<<< HEAD:rsc/Balls/ball_yellow.urdf
 	<color rgba="0.8 0.8 0.05 1"/>
+=======
+	<color rgba="0.66 0.66 0.32 1"/>
+>>>>>>> 0b7a117f9b8df3100f9b400dabd852fdf58459b3:rsc/Balls/ball_green.urdf
 </material>
 	<link name="base_link">
 		<visual>

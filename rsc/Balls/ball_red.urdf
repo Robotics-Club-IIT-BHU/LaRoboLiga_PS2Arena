@@ -10,7 +10,7 @@
     <color rgba="1 1 1 1"/>
   </material>
   <material name="red">
-    <color rgba="0.8 0 0 1"/>
+    <color rgba="0.93 0.56 0.36 1"/>
   </material>  
 	<link name="base_link">
 		<visual>
