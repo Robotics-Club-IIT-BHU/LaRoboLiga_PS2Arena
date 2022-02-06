@@ -23,8 +23,8 @@ class helper:
      self.blue=ball_blue
      self.purple=ball_purple
 
-  def move(self,lf,rf,lb,rb):
-    vels=[lf,-rf,lb,-rb]
+  def move(self,leftfront,rightfront,leftback,rightback):
+    vels=[leftfront,-rightfront,leftback,-rightback]
     p.setJointMotorControlArray(
                 bodyIndex = self.bot,
                 jointIndices = [0,1,2,3],
