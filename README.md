@@ -28,7 +28,10 @@ There are a few helper functions in [env_class.py](https://github.com/Robotics-C
       
    * `env.reset()`
       This will reset the whole arena. **This function cannot be used for your final submission.** 
-      
+
+## The Task 
+You have to make the bot husky go to each ball, open the gripper, close the gripper with the ball between the gripper arms and then go to the goalpost of the same color as that of the ball which you have gripped. 
+
 ## A sample image from the Camera Feed
 <p align="center">
  <img  width="400" height="400" src="https://github.com/Robotics-Club-IIT-BHU/FreshersEvent_PS2Arena/blob/HD/Sample_Camera_Image.png"><br>
