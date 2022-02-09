@@ -1,1 +1,0 @@
- self.husky_orn = husky_orn

@@ -6,8 +6,8 @@ import os
 import cv2
 
 def get_camera_image(bodyIndex):
-    width = 800
-    height = 800
+    width = 600
+    height = 600
     fov = 60
     aspect = width / height
     near = 0.02
@@ -46,7 +46,7 @@ print(parent_dir)
 
 orn = p.getQuaternionFromEuler([0,0,np.pi])
 bot = p.loadURDF(parent_dir+"/rsc/car_with_gripper/urdf/car_with_gripper.urdf",[0,0,0.5],orn)
-arena = p.loadURDF(parent_dir+"/rsc/arena/urdf/arena.urdf",useFixedBase = 1)
+arena = p.loadURDF(parent_dir+"/rsc/arena_brown_poles/urdf/arena.urdf",useFixedBase = 1)
 
 ball_yellow = p.loadURDF(parent_dir+"/rsc/Balls/ball_yellow.urdf",[0,6,2.0])
 ball_red = p.loadURDF(parent_dir+"/rsc/Balls/ball_red.urdf",[6,0,2.0])
