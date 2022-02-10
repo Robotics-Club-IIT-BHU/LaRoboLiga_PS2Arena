@@ -10,7 +10,7 @@ We are glad that you made it here and hope to see you cruise through the task.
 This repository holds the **official arena for the event** which will be used for evaluation of the submissions by the participants.
 
 ## Installation Guidelines  
-0. We recommend creating a virtual environment specific to this project. This will help in package management and for decluttering your workspace. An easy way to do so is by entering command:
+1. We recommend creating a virtual environment specific to this project. This will help in package management and for decluttering your workspace. An easy way to do so is by entering command:
 
    ~~~bash
    python3 -m venv <Env_Name>
@@ -18,7 +18,7 @@ This repository holds the **official arena for the event** which will be used fo
 
    Activation and deactivation of your virtual environment, will be done as specified [here](https://docs.python.org/3/library/venv.html). Scroll down to the table where the activation method for various operating systems is provided. Deactivation, in most cases, can be done by simply typing deactivate while being in in the virtual environment.
 
-1. Once you activate your virtual environment, you will have to install the various dependencies of this project. We have simplified this process for you. Just follow the following steps:
+2. Once you activate your virtual environment, you will have to install the various dependencies of this project. We have simplified this process for you. Just follow the following steps:
    * Download/Clone this repository on to your local machine.
    * Navigate to the root folder of this repository through your terminal.
    * Execute the following command in your terminal.
@@ -32,14 +32,14 @@ This repository holds the **official arena for the event** which will be used fo
 In case there are problems with the PyBullet installation, you can refer to this [guide](https://github.com/Robotics-Club-IIT-BHU/Robo-Summer-Camp-20/blob/master/Part1/Subpart%201/README.md).
 
 ## Getting started
-0. first of all , you'll have to import the package LRL-main-arena, this can only be done if you have performed the step 1 in Installation guidelines properly.
+1. first of all , you'll have to import the package LRL-main-arena, this can only be done if you have performed the step 1 in Installation guidelines properly.
 
 ~~~python
 env = gym.make("la_robo_liga_arena-v0")
 ~~~
-1. Second, you'll need to make the working loop, for continuous simulation in pybullet.
+2. Second, you'll need to make the working loop, for continuous simulation in pybullet.
 
-2. There are a few helper functions which we have made for you to interact with the environment. Brief description of each is given below. There is also a folder with example scripts, do check it out to get more information. 
+3. There are a few helper functions which we have made for you to interact with the environment. Brief description of each is given below. There is also a folder with example scripts, do check it out to get more information. 
    
    * `env.get_camera_image()`  
       This will return an RGB image from the camera placed in front of the bot husky just above the gripper origin.  
@@ -55,7 +55,7 @@ env = gym.make("la_robo_liga_arena-v0")
       
    * `env.reset()`
       This will reset the whole arena. **This function cannot be used for your final submission.** 
-3. You can refer the file **helper.py** to see the documentation of the different functions      
+4. You can refer the file **helper.py** to see the documentation of the different functions      
 
 ### Moment of Truth
 If you have done everything right, you should be able to see something like this after launching any of he provided scripts.
@@ -68,6 +68,11 @@ If you have done everything right, you should be able to see something like this
 ## The Task 
 You have to make the bot husky go to each ball, open the gripper, close the gripper with the ball between the gripper arms, go to the goalpost of the same color as that of the ball which you have gripped and put the ball inside the goalpost. The task is over as soon as the last ball is inside the goalpost
 and outside the gripper.
+## A Sample Camera Image
+<p align="center">
+ <img  width="600" height="600" src="Sample_Camera_Image.png"><br>
+ <i>Husky's Eye</i>
+</p>  
 
 ## Made and maintained by
 <table align="center">
@@ -75,4 +80,10 @@ and outside the gripper.
       <a href="https://github.com/astitva22">
       <img src="https://avatars.githubusercontent.com/u/75927242?v=4" width="115px;"/>
       <br /><sub><b>Astitva Gupta </b></sub></a><br/>
+ </td>
+ <td align="center">
+      <a href="https://github.com/san2130">
+      <img src=https://avatars.githubusercontent.com/u/88130555?s=400&v=4 width="115px;"/>
+      <br /><sub><b>Sandeepan Ghosh </b></sub></a><br/>
+ </td>
 </table>
