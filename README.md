@@ -56,13 +56,23 @@ env = gym.make("la_robo_liga_arena-v0")
    * `env.reset()`
       This will reset the whole arena. **This function cannot be used for your final submission.** 
 3. You can refer the file **helper.py** to see the documentation of the different functions      
-      
+
+### Moment of Truth
+If you have done everything right, you should be able to see something like this after launching any of he provided scripts.
+<p align="center">
+ <img  width="750" height="400" src="arena_overview.jpg"><br>
+ <i>Ladies and gentlemen, I present to you La Robo Liga!</i>
+</p>
+
 
 ## The Task 
 You have to make the bot husky go to each ball, open the gripper, close the gripper with the ball between the gripper arms, go to the goalpost of the same color as that of the ball which you have gripped and put the ball inside the goalpost. The task is over as soon as the last ball is inside the goalpost
 and outside the gripper.
 
-## A sample image from the Camera Feed
-<p align="center">
- <img  width="400" height="400" src="https://github.com/Robotics-Club-IIT-BHU/FreshersEvent_PS2Arena/blob/HD/Sample_Camera_Image.png"><br>
-</p>
+## Made and maintained by
+<table align="center">
+ <td align="center">
+      <a href="https://github.com/astitva22">
+      <img src="https://avatars.githubusercontent.com/u/75927242?v=4" width="115px;"/>
+      <br /><sub><b>Astitva Gupta </b></sub></a><br/>
+</table>
