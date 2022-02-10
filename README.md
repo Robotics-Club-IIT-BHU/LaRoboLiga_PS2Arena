@@ -59,7 +59,8 @@ env = gym.make("la_robo_liga_arena-v0")
       
 
 ## The Task 
-You have to make the bot husky go to each ball, open the gripper, close the gripper with the ball between the gripper arms and then go to the goalpost of the same color as that of the ball which you have gripped. 
+You have to make the bot husky go to each ball, open the gripper, close the gripper with the ball between the gripper arms, go to the goalpost of the same color as that of the ball which you have gripped and put the ball inside the goalpost. The task is over as soon as the last ball is inside the goalpost
+and outside the gripper.
 
 ## A sample image from the Camera Feed
 <p align="center">
