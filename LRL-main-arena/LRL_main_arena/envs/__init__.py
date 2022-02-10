@@ -1,0 +1,1 @@
+from LRL_main_arena.envs.LaRoboLiga_main import LaRoboLigaPs2Arena
