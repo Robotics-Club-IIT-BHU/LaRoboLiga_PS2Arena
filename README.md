@@ -39,7 +39,7 @@ env = gym.make("la_robo_liga_arena-v0")
 ~~~
 1. Second, you'll need to make the working loop, for continuous simulation in pybullet.
 
-2.There are a few helper functions which we have made for you to interact with the environment. brief description of each is given below. There is also a folder with example scripts, do check it out to get more information. 
+2. There are a few helper functions which we have made for you to interact with the environment. brief description of each is given below. There is also a folder with example scripts, do check it out to get more information. 
    
    * `env.get_camera_image()`  
       This will return an RGB image from the camera placed in front of the bot husky just above the gripper origin.  
