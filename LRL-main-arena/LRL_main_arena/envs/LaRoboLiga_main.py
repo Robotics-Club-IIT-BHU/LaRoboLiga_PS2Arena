@@ -101,7 +101,7 @@ class LaRoboLigaPs2Arena(gym.Env):
              )
     def open_husky_gripper(self):
         """
-            Function to open the grippers attached in fro of husky
+            Function to open the grippers attached in front of husky
 
             Arguments : 
                     None
@@ -133,13 +133,13 @@ class LaRoboLigaPs2Arena(gym.Env):
 
     def get_camera_image(self):
         """
-            Function to get camera feed of the arena.
+            Function to get camera feed from the onboard camera on husky.
 
             Arguments:
                     None
             
             Return Values:
-                    numpy array of RGB values
+                    numpy array of BGR values
 		"""
         fov = 60
         aspect = self._width / self._height
@@ -201,7 +201,7 @@ class LaRoboLigaPs2Arena(gym.Env):
 
     def reset(self):
         """
-            Function to reset the arena
+            Function to reset the postions of the husky and the balls in arena
 
             Arguments:
                      None
