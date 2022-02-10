@@ -32,14 +32,14 @@ This repository holds the **official arena for the event** which will be used fo
 In case there are problems with the PyBullet installation, you can refer to this [guide](https://github.com/Robotics-Club-IIT-BHU/Robo-Summer-Camp-20/blob/master/Part1/Subpart%201/README.md).
 
 ## Getting started
-0. first of all , you'll have to import the package LRR-main-arena, this can only be done if you have performed the step 1 in Installation guidelines properly.
+0. first of all , you'll have to import the package LRL-main-arena, this can only be done if you have performed the step 1 in Installation guidelines properly.
 
 ~~~python
 env = gym.make("la_robo_liga_arena-v0")
 ~~~
 1. Second, you'll need to make the working loop, for continuous simulation in pybullet.
 
-2. There are a few helper functions which we have made for you to interact with the environment. brief description of each is given below. There is also a folder with example scripts, do check it out to get more information. 
+2. There are a few helper functions which we have made for you to interact with the environment. Brief description of each is given below. There is also a folder with example scripts, do check it out to get more information. 
    
    * `env.get_camera_image()`  
       This will return an RGB image from the camera placed in front of the bot husky just above the gripper origin.  
