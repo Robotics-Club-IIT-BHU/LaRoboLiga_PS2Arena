@@ -77,15 +77,20 @@ and outside the gripper.
 </p>  
 
 ## Made and maintained by
-<table align="center">
+<table>
  <td align="center">
       <a href="https://github.com/astitva22">
       <img src="https://avatars.githubusercontent.com/u/75927242?v=4" width="115px;"/>
-      <br /><sub><b>Astitva Gupta </b></sub></a><br/>
+      <br /><sub><b> Astitva Gupta </b></sub></a><br/>
  </td>
  <td align="center">
       <a href="https://github.com/san2130">
       <img src=https://avatars.githubusercontent.com/u/88130555?s=400&v=4 width="115px;"/>
-      <br /><sub><b>Sandeepan Ghosh </b></sub></a><br/>
+      <br /><sub><b> Sandeepan Ghosh </b></sub></a><br/>
+ </td>
+  <td align="center">
+      <a href="https://github.com/naksh2004">
+      <img src="https://avatars.githubusercontent.com/u/75303956?v=4" width="115px;"/>
+      <br /><sub><b> Nakshatra Bansal </b></sub></a><br/>
  </td>
 </table>
