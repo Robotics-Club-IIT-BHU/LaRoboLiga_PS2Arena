@@ -32,7 +32,8 @@ This repository holds the **official arena for the event** which will be used fo
 In case there are problems with the PyBullet installation, you can refer to this [guide](https://github.com/Robotics-Club-IIT-BHU/Robo-Summer-Camp-20/blob/master/Part1/Subpart%201/README.md).
 
 ## Getting started
-1. first of all , you'll have to import the package LRL-main-arena, this can only be done if you have performed the step 1 in Installation guidelines properly.
+1. first of all , you'll have to import the package LRL-main-arena, this can only be done if you have performed the step 1 in Installation guidelines properly. 
+   Then the arena can be loaded with the following line of code:
 
 ~~~python
 env = gym.make("la_robo_liga_arena-v0")
@@ -55,13 +56,14 @@ env = gym.make("la_robo_liga_arena-v0")
       
    * `env.reset()`
       This will reset the whole arena. **This function cannot be used for your final submission.** 
-4. You can refer the file **helper.py** to see the documentation of the different functions      
+
+You can refer the file **helper.py** to see the documentation for different functions      
 
 ### Moment of Truth
-If you have done everything right, you should be able to see something like this after launching any of he provided scripts.
+If you have done everything right, you should be able to see something like this after launching any of the provided scripts.
 <p align="center">
  <img  width="750" height="400" src="arena_overview.jpg"><br>
- <i>Ladies and gentlemen, I present to you La Robo Liga!</i>
+ <i>Ladies and gentlemen, I present to you... La Robo Liga!</i>
 </p>
 
 
