@@ -1,7 +1,7 @@
 <?xml vesrion="1.0"?>
 <robot name="outer_shell">
  <material name="blue">
-    <color rgba="0.35 0.75 0.92 1"/>
+    <color rgba="0.35 0.75 0.89 1"/>
   </material>
   <material name="black">
     <color rgba="0 0 0 1"/>
