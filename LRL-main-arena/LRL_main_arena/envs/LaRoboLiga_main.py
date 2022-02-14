@@ -218,6 +218,7 @@ class LaRoboLigaPs2Arena(gym.Env):
         p.removeBody(self.husky)
         for id in self.balls:
             p.removeBody(id)
-
+            
+        self.balls.clear()
         self.spawn_husky()
         self.load_balls()  
