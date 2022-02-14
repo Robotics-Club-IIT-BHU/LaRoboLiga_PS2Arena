@@ -8,7 +8,7 @@ import pybullet_data
 import cv2
 import os
 
-if __name__=="__main__":
+if __name__ == "__main__":
     parent_path = os.path.dirname(os.getcwd())
     os.chdir(parent_path)
     env = gym.make("la_robo_liga_arena-v0")

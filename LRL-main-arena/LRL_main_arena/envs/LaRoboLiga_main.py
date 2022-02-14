@@ -91,8 +91,14 @@ class LaRoboLigaPs2Arena(gym.Env):
                 None
 
         """
-        
+        max_vel = 2
         vels = [leftfront,-rightfront,leftback,-rightback]
+        for vel in vels:
+            if vel > max_vel : vel = max_vel
+            elif vel < -max_vel : vel = -max_vel
+            else : pass         
+        vels = [leftfront,-rightfront,leftback,-rightback]
+
         p.setJointMotorControlArray(
                     bodyIndex = self.husky,
                     jointIndices = [0,1,2,3],
