@@ -54,7 +54,7 @@ env = gym.make("la_robo_liga_arena-v0")
    * `env.close_husky_gripper()`  
       This will be used to close the gripper arms of husky.
       
-   * `env.reset()`
+   * `env.reset_arena()`
       This will reset the whole arena. **This function cannot be used for your final submission.** 
 
 You can refer the file **helper.py** to see the documentation for different functions      

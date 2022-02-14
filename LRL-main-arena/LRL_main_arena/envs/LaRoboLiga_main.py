@@ -199,7 +199,7 @@ class LaRoboLigaPs2Arena(gym.Env):
         p.loadURDF('rsc/arena/urdf/arena.urdf',useFixedBase = 1)      
 
 
-    def reset(self):
+    def reset_arena(self):
         """
             Function to reset the postions of the husky and the balls in arena
 
