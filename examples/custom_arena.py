@@ -40,8 +40,12 @@ if __name__ == "__main__":
             husky_orn = new_husky_orn
         )
 
-    for i in range(2000):
+    for i in range(1000):
         p.stepSimulation()
         time.sleep(1./240.)
-
+    # env.reset_arena()
+    # for i in range(1000):
+    #     p.stepSimulation()
+    #     time.sleep(1./240.)
+            
     p.disconnect()    
