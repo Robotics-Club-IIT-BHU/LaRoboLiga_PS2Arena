@@ -168,7 +168,7 @@ class LaRoboLigaPs2Arena(gym.Env):
                             renderer=p.ER_BULLET_HARDWARE_OPENGL
                         )
         rgba_opengl = np.reshape(images[2], (self._height, self._width, 4))
-        bgr = cv2.cvtColor(rgba_opengl,cv2.COLOR_RGBA2BGR)   
+        bgr = cv2.cvtColor(rgba_opengl[:,:,0:3],cv2.COLOR_BGR2RGB)   
         return bgr
 
     def load_balls(self):
